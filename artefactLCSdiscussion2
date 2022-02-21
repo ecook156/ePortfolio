@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Editorial by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Collaborative Discussion 1</h1>
+									</header>
+
+									<h2>Identify and discuss two security technologies and the context in which they can be employed.</h2>
+									
+									
+									<h>Initial Post<h>
+									
+                  
+									<p> When it comes to designing secure software, Samar & Lai (1996) argue that authentication technologies require special attention because it forms a critical component of a secure system. “Passwords are the most widespread form of user authentication on the web today” (Reese et al, 2019) but these can be manipulated through social engineering techniques, weak passwords and password sniffing (Reid, 1996). The IEEE recommends using an authentication method that cannot be compromised (Ramakrishnan & Gunter, 2017). Two technologies that aim to strengthen authentication are two-factor and IP based authentication.<p>
+
+                  <p>IP based authentication is a method that identifies a user by the IP address associated with a client. It performs validation of certain IPs against a list of whitelisted addresses and grants access when there is a match. Users gain access to a system based on their IP address which ensures ease of us, an important characteristic of authentication and not having to remember credentials helps support this (Samar & Lai, 1996). Implementing IP based authentication in an organisation is relatively quick and cheap making it a good choice for large companies.<p>
+    
+                  <p>However, this can be bypassed by taking physical control of a client and therefore having access to anything that IP address can access, or by spoofing the IP address through packets to make it appear correct even though it has originated somewhere else (Reid, 1996). While physical access to a client can be protected through security measures such as locks, there are many filtering products that can help to detect IP spoofing.<p>
+
+                  <p>Two-factor (or multi factor) authentication is another technology that can be used to mitigate the risk of humans using weak passwords, by requiring more than one piece of evidence to gain access (Brookshear & Brylow, 2020). It requires a user to authenticate using something they know and something they either have or are. This usually includes a biometric “identifying people by measuring some aspect of individual anatomy or physiology” (Anderson, 2020) or a smartcard or token on a mobile device. “A common multi-factor authenticator is an ATM card, which combines a token with a secret (PIN)” (Beng Jin et al, 2004). It is proven that humans are not very good at remembering secure passwords (Brookshear & Brylow 2020) therefore the use of biometrics as a second authentication method makes it difficult for the user to forget and also harder for tokens to be faked (Reid,1996).<p>
+
+                  <p>While two-factor authentication methods are undoubtedly more secure than a single factor, it comes at extra cost for service providers and requires users to take additional steps during the authentication process (Cristofaro et al, 2013). Studies have shown that users become frustrated with not receiving their second factor passcode straight away (Reese et al 2019) which could discourage the use of 2FA.<p>
+
+
+									<h>References<h>
+ 
+
+									<p>Anderson, R. (2020). Security Engineering. Wiley.<p>
+ 
+                  <p>Brookshear, J. G., & Brylow, D. (2020). Computer Science: An Overview (13th ed.). Pearson.<p>
+ 
+                  <p>de Cristofaro, E., Du, H., Freudiger, J., & Norcie, G. (2013). A Comparative Usability Study of Two-Factor Authentication.<p>
+ 
+                  <p>Jin, A. T. B., Ling, D. N. C., & Goh, A. (2004). Biohashing: two factor authentication featuring fingerprint data and tokenised random number. Pattern Recognition, 37(11).<p>
+  
+                  <p>Ramakrishnan, L., & Gunter, D. (2017). Ten Principles for Creating Usable Software for Science. 2017 IEEE 13th International Conference on E-Science (e-Science), 210–218.<p>
+ 
+                  <p>Reese, K., Smith, T., Dutson, J., Armknecht, J., Cameron, J., & Seamons, K. (2019). A Usability Study of Five Two-Factor Authentication Methods.<p>
+ 
+                  <p>Reid, J. (1996). Plugging the holes in host-based authentication. Computers & Security, 15(8), 661–671.<p>
+ 
+                  <p>Samar, V., & Lai, C. (1996). Making Login Services Independent of Authentication Technologies. https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.117.8767&rep=rep1&type=pdf<p>
+									
+									
+									<h>Summary Post<h>
+                  
+										
+									<p>Throughout the collaborative discussion it has become clear that there are many different security technologies available covering both proactive measures, to secure both software and networks, and reactive to detect malicious activity that occurs (Venter & Eloff, 2003). My initial post focused on authentication technologies that aim to secure software by granting or denying permission to a system based on various criteria (Okafor-Tolofari, 2022). Meadows (2022) states that in the current digital world, having multiple forms of authentication can make it more difficult to fake an identity.<p>
+
+                  <p>Single factor authentication cannot be relied upon to provide adequate protection to security threats (Ometov et al, 2018). Many users tend to reuse passwords, but with the introduction of authentication technologies, even if a password is stolen, it is unlikely the attacker will have the second part of the authentication (Reese et al, 2019).<p>
+
+                  <p>While both MFA and IP based authentication add a layer of security, they can be manipulated through social engineering or spoofing (Reid, 1996) therefore using these technologies in combination with other methods would strengthen them. Pal (2021) argues that physical security technologies, such as restriction of physical access, are fundamental to security controls. This is the case with IP based authentication where taking physical control is its downfall. Usability can become a challenge when enforcing MFA as it can have a negative effect on task efficiency (Ometov et al, 2018) and Angelides (2021) points out that MFA will only provide the maximum benefit once users start to implement it in all areas that need protection.<p>
+
+                  <p>To strengthen authentication technologies, it is key to incorporate other layers of security in the form of network security, monitoring and intrusion detection. Havryliuk (2021) argues the importance of a Security Operations Centre (SOC) in identifying anomalies in traffic, this could help to detect malicious entry into a system if the authentication methods were breached. Thus, combining technologies that combat intrusion prevention with detection will create a layered approach to security.<p>
+										
+                    
+									<h>References<h>
+		         
+                  <p>Angelides (2021) Peer review. Available at https://www.my-course.co.uk/mod/hsuforum/discuss.php?d=290691 [Accessed 17th January 2022]<p>
+ 
+                  <p>Havryliuk (2021) The benefits of a SOC/SIEM in network security. Available at https://www.my-course.co.uk/mod/hsuforum/discuss.php?d=290148 [Accessed 18th January 2022]<p>
+ 
+                  <p>Meadows (2022) Peer response. Available at https://www.my-course.co.uk/mod/hsuforum/discuss.php?d=290813 [Accessed 18th January 2022]<p>
+ 
+                  <p>Okafor-Tolofari (2022) Peer review on AUTHENTICATION AND AUTHORISATION. Available at https://www.my-course.co.uk/mod/hsuforum/discuss.php?d=290813 [Accessed 17th January 2022]<p>
+ 
+                  <p>Ometov, A., Bezzateev, S., Mäkitalo, N., Andreev, S., Mikkonen, T., & Koucheryavy, Y. (2018). Multi-Factor Authentication: A Survey. Cryptography, 2(1), 1. <p>
+ 
+                  <p>Pal (2021) Initial post (Software technology). Available at https://www.my-course.co.uk/mod/hsuforum/discuss.php?d=290707 [Accessed 18th January 2022]<p>
+ 
+                  <p>Reese, K., Smith, T., Dutson, J., Armknecht, J., Cameron, J., & Seamons, K. (2019). A Usability Study of Five Two-Factor Authentication Methods.<p>
+ 
+                  <p>Reid, J. (1996). Plugging the holes in host-based authentication. Computers & Security, 15(8), 661–671. <p>
+ 
+                  <p>Venter, H. S., & Eloff, J. H. P. (2003). A taxonomy for information security technologies. Computers & Security, 22(4), 299–307.<p>
+									
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="#">About Me</a></li>
+										<li>
+											<span class="opener">Modules</span>
+											<ul>
+												<li><a href="genericLCS.html">Launching into Cyber Security</a></li>
+												<li><a href="genericNISM.html">Network and Information Security Management</a></li>
+												<li><a href="genericIRM.html">Information Risk Management</a></li>
+												<li><a href="genericSSD.html">Secure Software Development</a></li>
+												<li><a href="genericTHF.html">The Human Factor</a></li>
+												<li><a href="genericSSA.html">Secure Systems Archictecture</a></li>
+												<li><a href="genericPDFCL.html">Principles of Digital Forensics and Cyber Law</a></li>
+												<li><a href="genericRMPP.html">Research Methods and Professional Practice</a></li>
+												<li><a href="genericCSP.html">MSc Cyber Security Project</a></li>
+								
+										</li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
