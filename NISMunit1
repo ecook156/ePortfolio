@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Editorial by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Collaborative Discussion 1</h1>
+									</header>
+
+									<h2>Discuss why Cyber Security is now a global issue and why it is important for companies to invest in Cyber Security.</h2>
+									
+									
+									<h>Initial Post<h>
+									
+										
+					
+									<p>Cyber Security has become a global issue over the last decade due to the increase of online services allowing more criminal offences using computer systems to cause disruptive activities (Caravelli & Jones, 2019). This in turn grants attackers more opportunities to steal information globally through online measures and are therefore not limited by physical location.<p>
+									
+									<p>The travel and hospitality industry has been a target of multiple security breaches due to their nature in holding vast amount of customer records in one place, often including payment card information. This type of sensitive customer information is of high value to attackers and therefore becomes a target.<p> 
+									
+									<p>The airline British Airways was fined £20 million for a breach of personal data in 2018 of around 400,000 customers as it was found that they didn’t have the adequate controls in place to protect their customers information (ICO, 2020). Organisations holding large volumes of sensitive customer information must ensure they have ‘implemented appropriate technical and organisational measures to ensure a level of security appropriate to the risk’ (GDPR, 2018). In order to be able to demonstrate Security of processing in line with Article 32 of this legislation, companies must invest in their Cyber Security. Investing in an organisations Cyber Security not only ensures that data is protected but it reduces the financial losses that could occur as a result of a breach. 
+									
+									<p> Whilst there are many costs associated with a data breach such as, time spent notifying the individuals (Ogbanufe et al. 2021) and effort to recover from data losses, there are two major outcomes of a security breach that can have a significant impact on a company’s financial situation. Firstly, since the introduction of the GDPR in May 2018, the financial implications of a data breach on a company has now increased to a significant proportion of revenue if a fine is issued by the Information Commissioners Office. The addition of the legislation has caused many businesses to improve their cyber security policies and processes and has had a positive impact in improving awareness of security in general (Vaidya, 2019). Whereas, in the case of British Airways, their fine could have been significantly reduced if they were able to demonstrate that they had done everything possible to protect their customers information. Secondly, following a publicised breach of customer information it is likely to have reputational damage to the company resulting in loss of customers and therefore a further reduction in profit. While it can be costly, the investment in preventative and detective measures, could save an organisation from huge financial losses if they were to suffer a breach.<p>
+
+
+									<h>References<h>
+ 
+
+									<p>Caravelli, J., & Jones, N. (2019). Cyber Security: Threats and Responses for Government and Business. Praeger (Praeger Security International).<p>
+
+									<p>GDPR, 2018. Guide to the General Data Protection Regulation. [online] GOV.UK. Available at: [Accessed 11 November 2021].<p>
+
+									<p>ICO. (2020, October 16). ICO fines British Airways £20m for data breach affecting more than 400,000 customers.<p>
+ 
+									<p>Ogbanufe, O., Kim, D. J., & Jones, M. C. (2021). Informing cyber security strategic commitment through top management perceptions: The role of institutional pressures. Information & Management, 58(7).<p>
+ 
+									<p>Vaidya, R. (2019). Cyber Security Breaches Survey 2019.<p>
+									
+									
+									<h>Summary Post<h>
+										
+									<p>The investment in Cyber Security is critical to organisations due to the growing number of successful attacks leading to data breaches (Vaidya 2019). My initial post focused on the need to invest in Cyber Security controls in order to reduce the financial impact from a GDPR fine or loss of custom from reputational damage as described by Meadows (2021). Peuhkurinen (2021) suggests that GDPR is not prescriptive enough, therefore it is difficult to know what controls to invest in to be deemed appropriate by the ICO. Without specific guidance from regulators, it is left up to the organisation to determine what level of controls they implement.<p> 
+									
+									<p>Organisations must invest in their security analysts to allow accurate risk assessments and threat modelling of their systems to determine the impact of information being stolen and to invest where necessary. British Airway’s lack of investment in secure software development and a suitable patching programme left their systems vulnerable for 6 years which was successfully exploited. This resulted in the ICO issuing a fine for “Insufficient technical and organizational measures to ensure information security” (ICO, 2020). It can be argued that not only were BA’s security controls insufficient for the customer data they processed but they were not following secure design principles.<p>
+
+									<p>Subramaniam (2021) suggest that investment in monitoring and visibility is the most important factor for organisations. However, although investment in all layers of security is important, I believe organisations should invest in their preventative measures by integrating security into software development (Williams 2019), implementing firewalls, access controls and keeping systems patched to stop penetration to begin with and therefore reducing the investment needed for monitoring and detection. Investment in Cyber Security prevention should be an organisations priority in order to demonstrate they have taken appropriate steps which, if a breach still occurred, could reduce a fine imposed to them by the ICO as was the case for The Marriott (Peuhkurinen, 2021).<p>
+
+										
+									<h>References<h>
+										
+<p>ICO. (2020, October 16). ICO fines British Airways £20m for data breach affecting more than 400,000 customers.<p>
+
+<p>Meadows, R (2021) Initial Post. Available at https://www.my-course.co.uk/mod/hsuforum/discuss.php?d=285532 [Accessed 29 November 2021].<p>
+
+<p>Peuhkurinen, K (2021) Peer Response. Available at https://www.my-course.co.uk/mod/hsuforum/discuss.php?d=285020 [Accessed 29 November 2021].<p>
+
+<p>Subramaniam, N (2021) Peer Response. Available at https://www.my-course.co.uk/mod/hsuforum/discuss.php?d=285020 [Accessed 29 November 2021].<p>
+
+<p>Vaidya, R. (2019). Cyber Security Breaches Survey 2019.<p>
+
+<p>Williams, L. (2019). Secure Software Lifecycle Knowledge Area. Available at https://www.cybok.org/media/downloads/Secure_Software_Lifecycle_issue_1.0.pdf [Accessed 28 November 2021].<p>
+								
+									
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="#">About Me</a></li>
+										<li>
+											<span class="opener">Modules</span>
+											<ul>
+												<li><a href="genericLCS.html">Launching into Cyber Security</a></li>
+												<li><a href="genericNISM.html">Network and Information Security Management</a></li>
+												<li><a href="genericIRM.html">Information Risk Management</a></li>
+												<li><a href="genericSSD.html">Secure Software Development</a></li>
+												<li><a href="genericTHF.html">The Human Factor</a></li>
+												<li><a href="genericSSA.html">Secure Systems Archictecture</a></li>
+												<li><a href="genericPDFCL.html">Principles of Digital Forensics and Cyber Law</a></li>
+												<li><a href="genericRMPP.html">Research Methods and Professional Practice</a></li>
+												<li><a href="genericCSP.html">MSc Cyber Security Project</a></li>
+								
+										</li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
