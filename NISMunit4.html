@@ -38,17 +38,32 @@
                 
 									<h3>Initial Post</h3>
 									<p>As I am new to this kind of practical activity, I chose to use simple online tools as well as the Traceroute command on Mac as described by a2hosting.coms knowledgebase. The Traceroute scan took me 10 hops to get to the website with an average delay of 29.8ms. In order to provide more accurate results, I should have performed this multiple times to see if the results differed and assess the reliability of the results.<p>
-                  <p>I used who.is to search for the registered contact of the domain which told me that the registrar was eNom LLC URL: http://www.enom.com but there was no name or address available associated with the 3rd party. The information on this website is provided by Nominet UK which is the central register for .uk domain names. I then used DNS Spy to run a report on the domain which provided all of the remaining information required such as IP address, MX record and main name servers.<p>
-                  <p>From the activity I found that all of the 4 name servers were hosted by the same provider (Cloudflaranet) based in the US. This potentially means there’s no redundancy for the site, if they are geographically all in the same place there could be a threat to the availability of the website if a natural disaster were to occur that impacted that location. However the cost of implementing redundancy needs to be outweighed against the risk to availability of the site (Soikkeli et al, 2022).<p>
+               							   	<p>I used who.is to search for the registered contact of the domain which told me that the registrar was eNom LLC URL: http://www.enom.com but there was no name or address available associated with the 3rd party. The information on this website is provided by Nominet UK which is the central register for .uk domain names. I then used DNS Spy to run a report on the domain which provided all of the remaining information required such as IP address, MX record and main name servers.<p>
+                 						 	<p>From the activity I found that all of the 4 name servers were hosted by the same provider (Cloudflaranet) based in the US. This potentially means there’s no redundancy for the site, if they are geographically all in the same place there could be a threat to the availability of the website if a natural disaster were to occur that impacted that location. However the cost of implementing redundancy needs to be outweighed against the risk to availability of the site (Soikkeli et al, 2022).<p>
 								
 									<h3>References</h3>
 
 									<p>A2hosting.com How to troubleshoot network connectivity using ping and traceroute. Available at: https://www.a2hosting.com/kb/getting-started-guide/internet-and-networking/troubleshooting-network-connectivity-with-ping-and-traceroute. [Accessed 26 March 2022].<p>
-                  <p>Soikkeli, J., Casale, G., Munoz-Gonzalez, L. and Lupu, E.C., 2022. Redundancy Planning for Cost Efficient Resilience to Cyber Attacks. IEEE Transactions on Dependable and Secure Computing.<p>
+                  							<p>Soikkeli, J., Casale, G., Munoz-Gonzalez, L. and Lupu, E.C., 2022. Redundancy Planning for Cost Efficient Resilience to Cyber Attacks. IEEE Transactions on Dependable and Secure Computing.<p>
 
-                  <h3>Online tools used</h3>
-                  <p>https://who.is/whois/allmytype.co.uk<p>
-                  <p>https://dnsspy.io/scan/allmytype.co.uk<p>
+                 						 	<h3>Online tools used</h3>
+                  							<p>https://who.is/whois/allmytype.co.uk<p>
+                  							<p>https://dnsspy.io/scan/allmytype.co.uk<p>
+									
+									<h2>Peer responses to my intial post</h2>
+									
+									<h3>Kevin Peuhkurinen</h3>
+									<p>Hi Elizabeth. I enjoyed your post. I found it particularly interesting that you were able to determine that the name servers for the site are actually hosted by "Cloudflaranet" rather than by a2hosting.com, which is what we would expect based on the nameserver domain names (Parziale et. al., 2006). In that regard, I believe that you took your research a step further than our group did.<p>
+									<p>However, I do want to suggest that if you had taken your research one additional step, you may have reconsidered your thoughts about the redundancy of the nameservers. Cloudflaranet is actually the company Cloudflare which, according to Williams (2022) is a very popular content delivery network (CDN). A CDN works by caching files from websites and distributing the data across the globe. This results in faster access times, but also creates additional redundancy. Cloudflare claims that their DNS system provides "unparalleled redundancy" (Cloudflare, 2019).<p>
+									<p>References<p>
+									<p>Cloudflare. 2019. Leveraging DNS to Build Reliable Digital Experiences Available at: https://www.cloudflare.com/static/610d40f37f1d40925fe5acb1d6f90cef/BDES-361_DNS_whitepaper_0220_final.pdf  [Accessed 9 April 2022]<p>
+									<p>Parziale, L., Britt, D., Davis, C., Forrester, J., Lui, W., Matthews, C. & Rosselot, N. (2006) TCP/IP Tutorial And Technical Overview. 8th ed. New York: IBM.<p>
+									<p>Williams, Mike. 2022. Best CDN providers of 2022 to speed up any website. Available at: https://www.techradar.com/news/best-cdn-providers [Accessed: 9 April 2022].<p>
+						
+									<h3>Beran Necat</h3>
+									<p>Hi Elizabeth, thank you for your clear initial post. DNS and other registration records may be used by attackers to compromise a website. Increasingly attackers will use social media websites and other public resources to find information about users that may help in compromising web sites.<p>
+
+
 
 								</section>
 
