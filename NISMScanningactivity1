@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Editorial by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Scanning Activity 1</h1>
+									</header>
+
+									<h2>Task</h2>
+									<p>For this acitivty we were required to perform some basic scans on our assigned website using standard tools such as Traceroute to find out:<p>
+                  <p>How many hops from your machine to your assigned website?<p>
+                  <p>Which step causes the biggest delay in the route? What is the average duration of that delay?<p>
+                  <p>What are the main nameservers for the website?<p>
+                  <p>Who is the registered contact?<p>
+                  <p>What is the MX record for the website?<p>
+                  <p>Where is the website hosted?<p>
+									
+									<h2>Approach</h2>
+									
+									<p>For this exercise we decided as a group to each have a go at the scanning acitivy and then discuss and agree the results in our following meeting<p>
+							
+									<h2>Results</h2>
+                  
+                  <h3>How many hops from your machine to your assigned website?</h3>
+                  <p>Our results ranged from 10 hops - 14 hops<p>
+                  
+                  <h3>Which step causes the biggest delay in the route? What is the average duration of that delay?</h3>
+                  <p>The biggest delay in our grouo was during hop 2 which took 413ms<p>
+                  
+                  <h3>What are the main nameservers for the website?</h3>
+                  <p>ns1.a2hosting.com<p>      
+                  <p>ns2.a2hosting.com<p>
+                  <p>ns3.a2hosting.com<p>
+                  <p>ns4.a2hosting.com<p>
+                  
+                  <h3>Who is the registered contact?</h3>
+                  <p>eNom LLC [Tag = ENOM] ; URL: http://www.enom.com<p>                   
+                  
+                  <h3>What is the MX record for the website?</h3>
+                  <p>mail.allmytype.co.uk<p>
+                  
+                  <h3>Where is the website hosted?</h3>
+                  <p> We did found that this was hosted in either the US or Amsterdam but did not come to a clear solution<p>
+							
+							</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+									</header>
+									<ul>
+										<li><a href="genericNISM.html">Back</a></li>
+										</li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
