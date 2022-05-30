@@ -51,31 +51,52 @@
 									<h2>Results</h2>
                   
                  						 	<h3>What Operating System does the web site utilise?</h3>
-									<p> Using Nmap we found the site was using Linux<p>
+									<p> Using Nmap Jurbe found the site was using Linux - this was one of the scans I struggled to get to work<p>
+									<p><img src="images/26A1B36E-DFD7-4734-8D8F-5BF1F0655DF7.jpeg"
+									width="400" 
+   									height="400"><p>
                   
                   							<h3>What web server software is it running?</h3>
-									<p>Using Nkito we found the site was running on an Apache server<p>
-                  
+									<p>Using Nkito I found that the site was running on an Apache server<p>
+									<p><img src="images/8E003E7C-804D-42A8-89F4-4288450A1716.jpeg"
+									width="400" 
+   									height="400"><p>
+									
                   							<h3>Is it running a CMS (Wordpress, Drupal, etc?)</h3>
 									<p>CMSeek showed the CMS is Serendipity version 2.3.5<p>
+									<p><img src="images/508B4689-128B-46CF-879A-4EDDA25A1A8C_4_5005_c.jpeg"
+									width="400" 
+   									height="400"><p>
                   
                   							<h3>What protection does it have (CDN, Proxy, Firewall?)</h3>
-									<p>Nikto scan showed; Server banner has changed from ‘Apache’ to ‘imunify360-webshield/1.18’ which may suggest a WAF, load balancer or proxy<p>
-
-                  							<h3>Where is it hosted?</h3>
+									<p>My Nikto scan showed; Server banner has changed from ‘Apache’ to ‘imunify360-webshield/1.18’ which may suggest a WAF, load balancer or proxy<p>
+									<p><img src="images/8E003E7C-804D-42A8-89F4-4288450A1716.jpeg"
+									width="400" 
+   									height="400"><p>
+                  							
+									<h3>Where is it hosted?</h3>
 									<p>InfoSploit points to a Geo-IP location as United states but points IP-locator as Amsterdam, Netherlands<p>
 
                   
                   							<h3>Does it have any open ports?</h3>
-									<p>Yes - dmitry scanned 150 ports of which 129 were closed. Open ports included 21, 25, 53, 80, 110, 143<p>
-									<p>Using Nmap, it showed the following ports open<p>
-
+									<p>Yes - my dmitry scanned 150 ports of which 129 were closed. Open ports included 21, 25, 53, 80, 110, 143<p>
+									<p><img src="images/0F8892E3-1679-4367-AFF9-79B9FCA5E4F4.jpeg"
+									width="400" 
+   									height="400"><p>
+									<p>However, using Nmap Samuel identified more information, it showed the following ports open<p>
+									<p><img src="images/98AC62E6-600F-41BE-BB3C-DBF5161A57EC.jpeg"
+									width="400" 
+   									height="400"><p>
                   
                   							<h3>Does the site have any known vulnerabilities?</h3>
 									<p>Nikto scan showed;<p>
 									<p>The X-XSS protection header is not defined - cross site scripting vulnerability<p>
 									<p>X-powered-by header: W3 Total cache/0.9.4.6.4<p>
 									<p>Uncommon header ‘link’ found with contents https:tech-sourcery.co.uk/wp-json<p>
+									
+									<p><img src="images/8E003E7C-804D-42A8-89F4-4288450A1716.jpeg"
+									width="400" 
+   									height="400"><p>
 
                   
                  							<h3>What versions of software is it using? Are these patched so that they are up to date?</h3>
