@@ -34,37 +34,55 @@
 									</header>
 
 									<h2>Task</h2>
+									<p>For this scanning acitivy we had to perform scans of our assigned website (allmytype.co.uk) using tools available through Kali Linux to answer as many of the following questions as we could:<p>
 									<p>What Operating System does the web site utilise?<p>
-                  <p>What web server software is it running?<p>
-                  <p>Is it running a CMS (Wordpress, Drupal, etc?)<p>
-                  <p>What protection does it have (CDN, Proxy, Firewall?)<p>
-                  <p>Where is it hosted?<p>
-                  <p>Does it have any open ports?<p>
-                  <p>Does the site have any known vulnerabilities?<p>
-                  <p>What versions of software is it using? Are these patched so that they are up to date?<p>
+               							   	<p>What web server software is it running?<p>
+                  							<p>Is it running a CMS (Wordpress, Drupal, etc?)<p>
+                  							<p>What protection does it have (CDN, Proxy, Firewall?)<p>
+                  							<p>Where is it hosted?<p>
+                 					 		<p>Does it have any open ports?<p>
+                  							<p>Does the site have any known vulnerabilities?<p>
+                  							<p>What versions of software is it using? Are these patched so that they are up to date?<p>
 									
 									<h2>Approach</h2>
 									
-									<p>For this exercise we decided as a group to each have a go at the scanning acitivy and then discuss and agree the results in our following meeting<p>
+									<p>For this exercise we decided as a group to each have a go at the scanning acitivy and then discuss and agree the results in our following meeting, this was the same approach we had taken previously and it worked to ensure each member had a go at the activity.<p>
 							
 									<h2>Results</h2>
                   
-                  <h3>What Operating System does the web site utilise?</h3>
+                 						 	<h3>What Operating System does the web site utilise?</h3>
+									<p> Using Nmap we found the site was using Linux<p>
                   
-                  <h3>What web server software is it running?</h3>
+                  							<h3>What web server software is it running?</h3>
+									<p>Using Nkito we found the site was running on an Apache server<p>
                   
-                  <h3>Is it running a CMS (Wordpress, Drupal, etc?)</h3>
+                  							<h3>Is it running a CMS (Wordpress, Drupal, etc?)</h3>
+									<p>CMSeek showed the CMS is Serendipity version 2.3.5<p>
                   
-                  <h3>What protection does it have (CDN, Proxy, Firewall?)</h3>
+                  							<h3>What protection does it have (CDN, Proxy, Firewall?)</h3>
+									<p>Nikto scan showed; Server banner has changed from ‘Apache’ to ‘imunify360-webshield/1.18’ which may suggest a WAF, load balancer or proxy<p>
+
+                  							<h3>Where is it hosted?</h3>
+									<p>InfoSploit points to a Geo-IP location as United states but points IP-locator as Amsterdam, Netherlands<p>
+
                   
-                  <h3>Where is it hosted?</h3>
+                  							<h3>Does it have any open ports?</h3>
+									<p>Yes - dmitry scanned 150 ports of which 129 were closed. Open ports included 21, 25, 53, 80, 110, 143<p>
+									<p>Using Nmap, it showed the following ports open<p>
+
                   
-                  <h3>Does it have any open ports?</h3>
+                  							<h3>Does the site have any known vulnerabilities?</h3>
+									<p>Nikto scan showed;<p>
+									<p>The X-XSS protection header is not defined - cross site scripting vulnerability<p>
+									<p>X-powered-by header: W3 Total cache/0.9.4.6.4<p>
+									<p>Uncommon header ‘link’ found with contents https:tech-sourcery.co.uk/wp-json<p>
+
                   
-                  <h3>Does the site have any known vulnerabilities?</h3>
-                  
-                  <h3>What versions of software is it using? Are these patched so that they are up to date?</h3>
-                
+                 							<h3>What versions of software is it using? Are these patched so that they are up to date?</h3>
+                							<p>Nmap scan identified Os version as Linux Red hat enterprise 7<p>
+									<p>According to Red Hat Unveils Red Hat Enterprise Linux 7, Redefining the Enterprise Operating System. This version was released in 2014. Newer version is Red hat 8<p>
+
+
 							
 							</section>
 
