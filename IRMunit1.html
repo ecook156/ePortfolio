@@ -30,59 +30,24 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>Unit 1 - Network and Information Security Management: History & Definitions</h1>
+										<h1>Unit 1 - Information Risk Management: Definitions, Standards and Approaches</h1>
 									</header>
 
-									<h2>Collaborative Learning Discussion 1</h2>
-									<p>For this discussion we were required to read Glisson et al (2015) Compromising a Medical Mannequin and provide an initial post to discuss what major threats and vulnerabilities were discussed in the paper and how these could be mitigated against.
+									<h2>Unit 1 learning outcomes:</h2>
+									<p>Discuss the various definitions of risk.<p>
+									<p>Explain how to assess, qualify and mitigate risks.<p>
+									<p>Describe various approaches to quantify and qualify risks.<p>
+									<p>List common risk standards and select the appropriate one(s) for a given situation.<p>
 									
-									<h3>Initial Post</h3>
+									<h2>What is Risk?</h2>
 									
-									<p>With the increased use and dependency on technology in medical settings, the potential for a malicious cyber-attack has become more of a concern (Glisson et al, 2015). The article on Compromising a Medical Mannequin identifies vulnerabilities of the iStan device and how these can be exploited.<p>
- 									<p>There were two technical vulnerabilities identified in the paper, firstly, the network security solution consisted of wireless transmissions between the controlling laptop and mannequins internal access point. Using open-source tools, students were able to carry out a brute force attack to crack the PIN on the access point. Following a brute force attack of this nature there is a threat of tampering with the devices used by the training facility by making unauthorised changes to the information (Campbell, 2016) thus affecting the integrity of the iStan devices. The impact of these vulnerabilities being realised could influence medical professionals to incorrectly assess a situation (Glisson et al, 2015) Therefore mitigation steps could be put in place by disabling the WPS from the access point consequently removing the ability to use the Reaver tools used in the research.<p>
- 									<p>Secondly, the network protocol used was found to be vulnerable to a denial-of-service attack. This attack made the iStan devices unable to receive any setting changes from the muse software causing a threat to the availability of the devices which would impact the medical staffs ability to train effectively. Householder et al (2001) argues that proper preparation is essential for effective detection and reaction of a denial-of-service attack therefore a two step approach should be taken to implement firewalls to prevent a Denial of service attack from occurring and also having a robust Disaster Recovery plan in place to quickly react and reduce the impact of the threat if an attack was successful.<p>	
+									<p>Risk can be defined as the culmination of the liklihood of an event occuring and the impact that the event occuring will have<p>
+									<p>Risk is not an exact science and can be determined in many different ways using differnet frameworks and methodologys<p>
 
-									<h3>References</h3>
+									<h2>This Week</h2>
 
-									<p>Campbell, T., 2016. Practical Information Security Management. Practical Information Security Management, pp.155-177.<p>
- 									<p>Glisson, W., Andel, T., McDonald, T., Jacobs, M., Campbell, M. & Mayr, J. (2015) Compromising a Medical Mannequin.Healthcare Information Systems and Technology (Sighealth).<p>
- 									<p>Householder, A., Manion, A., Pesante, L., Weaver, G.M. and Thomas, R., 2001. Managing the threat of denial-of-service attacks. CARNEGIE-MELLON UNIV PITTSBURGH PA SOFTWARE ENGINEERING INST.<p>
+									
 								
-									<h2>Peer responses to my intial post</h2>
-									
-									<h3>Beran Necat</h3>
-									<p>Hi Elizabeth, You have raised many valid points. Glisson et al. (2015) has shown us how easy it is to intercept the wireless network and potential vulnerabilities of a medical mannequin and implants, and they are all IoT devices. The issue with IoT devices is that they are limited in resources, i.e. memory, and that is required to store more robust encryption. Hence, most of them use digits only as a security code for a password. Even with the highest encryption, they will be very easy to brute-force. What would be the best way to secure them?<p>
-									<p>References<p>
-									<p>Glisson, W., Andel, T., McDonald, T., Jacobs, M., Campbell, M. & Mayr, J. (2015) Compromising a Medical Mannequin. Healthcare Information Systems and Technology (Sighealth).<p>
-							
-									<h3>Jonathan Ashmore</h3>
-									<p>Hi Beran and Elizabeth, It was an interesting question regarding how to secure IoT devices. I think one of the best ways at least at a network level would be to isolate IOT devices from the main network into a subnet: network isolation or network segmentation. One way to do this is to use Virtual Local Area Networks (VLANs). VLANs allows all devices to be connected to a Local Area Network (LAN) yet limits the communication between devices as they are on subnets of the LAN (www.pearsonitcertification.com, 2015). In essence, each VLAN is it own broadcast domain allowing grouped devices to broadcast to each other regardless of the switch they are using (Study-ccna.com, 2016).<p>
-									<p>There are advantages to using VLANs: Scalable, Reduces security risks, Trusted, semi-trusted, and non-trusted devices can be isolated, Flexible- configured to users and not location, Relative ease of use in configuring VLANs<p>
-									<p>It is worth noting that the IOT device can still be beached; for example, the access point password could possibly be cracked, and the iStan-related wireless devices could be still DoS attacked. However, isolating the access point to a VLAN with only the medical device and relevant wireless equipment would greatly reduce breaches across the main LAN such as attacking other IOT devices, nodes, and networks.<p>
-									<p>References<p>
-									<p>Study-ccna.com. (2016) What is a VLAN? Available from: https://study-ccna.com/what-is-a-vlan/ [Accessed 14 Mar. 2022].<p>
-									<p>www.pearsonitcertification.com. (2015) Differences Between Physical and Virtual LANs | Virtual vs. Physical LANs: Device Functionalities | Pearson IT Certification. Available from: https://www.pearsonitcertification.com/articles/article.aspx?p=2343470&seqNum=2 [Accessed 14 Mar. 2022].<p>
-									
-									<h3>Elizabeth Cook - response back to Beran and Jonathan</h3>
-									<p>Hi both, thank you for your thought provoking posts regarding IOT devices. I agree that due to the size of the memory included in the devices it can be difficult to use stronger encryption methods. Ometov et al (2019) argues that the key to securing IOT devices is through authentication by various smart devices. Many IOT devices already use multi factor authentication therefore it is a method than can be included in the access to most devices. This will significantly reduce the possibility of a successful brute force attack as an attacker would need the secondary method of authentication which would be more difficult to intercept due to the short expiration of a one time pass. (Borgohain et al, 2015)<p>
- 									<p>I agree with Jonathan that network segmentation is a good option to secure IOT devices by separating iStan devices onto separate VLANs it restricts the movement of a cyber attacker making it difficult to access multiple resources (Wagner et al, 2016). While network segmentation may not prevent a DoS attack it significantly reduces the impact to the business if one was to happen, when it comes to the use of medical devices, continuity of service and the ability to carry on with operations quickly after an attack is key.<p>
- 									<p>References<p>
- 									<p>Borgohain, T., Borgohain, A., Kumar, U. and Sanyal, S., 2015. Authentication systems in internet of things. arXiv preprint arXiv:1502.00870.<p>
- 									<p>Ometov, A., Petrov, V., Bezzateev, S., Andreev, S., Koucheryavy, Y. and Gerla, M., 2019. Challenges of multi-factor authentication for securing advanced IoT applications. IEEE Network, 33(2), pp.82-88.<p>
- 									<p>Wagner, N., Şahin, C.Ş., Winterrose, M., Riordan, J., Pena, J., Hanson, D. and Streilein, W.W., 2016, December. Towards automated cyber decision support: A case study on network segmentation for security. In 2016 IEEE Symposium Series on Computational Intelligence (SSCI) (pp. 1-10). IEEE.<p>
-						
-									<h3>Isioma Vina Okafor-Tolofari</h3>
-									<p>Hi  Beth to add a little on Brute force attacks: Students at the University of South Alabama identified the scale of sophistication regarding IoT devices and the severity of cyber-attacks on medical devices and implanted devices. The istan mannequin has various Vulnerabilities. As the number of connected medical devices rises, lethal vulnerabilities become apparent, posing a threat to patient lives.<p>
-									<p>Brute force attacks remain a pervasive and effective one, also called brute force cracking, equivalent to trying every key on your key ring and eventually finding the right one. Despite being the oldest and least sophisticated type of attack,  In 2017, brute force attacks caused 5% of confirmed data breaches. (Petters, 2021)<p>
-									<p>Although brute-force attacks are fundamental and can be used on any encryption. As a result, most IoT device manufacturers do not feel responsible for the security of their products or their customers.<p>
-									<p>It's disappointing that most end-users are unaware of the security issues associated with these products, and even if they change the default password, which the majority don't, it's still possible for these devices to contain hard-coded accounts that, once leaked or discovered, can be accessed by anyone. Unfortunately, there are no inconsistent patches to fix these issues as technology evolves; It is becoming increasingly crucial for the medical industry to have up-to-date security and digital forensics capabilities,By requiring two-factor (2FA) or multiple-factor authentication (MFA), can prevent multiple log-in attempts within a short period of time.<p>
-									<p>In an extreme measure, user accounts could be locked after several failed login attempts to mitigate brute force attacks. Then, whenever a log-in attempt is unsuccessful, a timeout period prevents subsequent attempts (Radware Bot Manager, n.d.)<p>
-									<p>References<p>
-									<p>Brinson, A., Robinson, A. and Rogers, M. (2006). A cyber forensics ontology: Creating a new approach to studying cyber forensics. Digital Investigation, 3, pp.37–43.<p>
-									<p>Klonoff, D.C. (2015). Cybersecurity for Connected Diabetes Devices. Journal of Diabetes Science and Technology, 9(5), pp.1143–1147.<p>
-									<p>May 30, N.K. on and 2019 (2019). Brute Force Attacks on IoT – Here to Stay? [online] Security Boulevard. Available at: https://securityboulevard.com/2019/05/brute-force-attacks-on-iot-here-to-stay/.<p>
-									<p>Petters, J. (2021). What is a Brute Force Attack? [online] www.varonis.com. Available at: https://www.varonis.com/blog/brute-force-attack.<p>
-									<p>Rao, N.T. (2019). Applications of Machine Learning in Cyber Security. International Journal of Advanced Research in Computer and Information Security, 3(1), pp.1–8.<p>
 							</section>
 
 						</div>
